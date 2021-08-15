@@ -1,5 +1,6 @@
+/** Filter pour trouver les valeurs du tableau donc le type est égal à "house" */
 function exercice2(arr) {
-  return arr;
+  return arr.filter((currentValue) => currentValue.type === "house");
 }
 
 /* Résultat attendu =

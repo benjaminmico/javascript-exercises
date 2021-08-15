@@ -1,7 +1,7 @@
+/** Reduce pour accumuler les valeurs du tableau et retourner la somme  */
 function exercice1(arr) {
-  return arr;
+  return arr.reduce((previousSum, currentValue) => previousSum + currentValue);
 }
-
 // Résultat attendu = 31
 console.log(exercice1([1, 2, 3, 4, 10, 11]));
 

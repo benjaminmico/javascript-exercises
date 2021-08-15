@@ -1,5 +1,6 @@
+/** Find pour trouver la valeur du tableau donc l'id est égal à 2 */
 function exercice3(arr) {
-  return arr;
+  return arr.find((currentValue) => currentValue.id === 2);
 }
 
 /* Résultat attendu =
